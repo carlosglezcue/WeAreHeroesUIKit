@@ -24,6 +24,6 @@ extension SuperHeroe {
     }
     
     var powerList: String {
-        poderes.formatted(.list(type: .and))
+        poderes.formatted(.list(type: .and)).replacingOccurrences(of: "and", with: "y")
     }
 }

@@ -28,7 +28,7 @@ class SuperHeroeDetailsTableViewController: UITableViewController {
             cell.heroeName.text = superHeroe.nombreReal
             cell.heroeDescription.text = superHeroe.descripcion ?? superHeroe.historia
             cell.heroeImage.image = UIImage(named: superHeroe.imagen)
-            cell.heroeNickname.text = superHeroe.apodo
+            cell.heroeNickname.text = superHeroe.apodo + ", " + String(superHeroe.edad)
 //            let _ = superHeroe.power.map { power in
 //                cell.heroePowers.text = power.rawValue
 //            }
