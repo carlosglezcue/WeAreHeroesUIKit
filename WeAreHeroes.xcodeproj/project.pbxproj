@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		4F65F7382B9E6CCE00323FE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F7372B9E6CCE00323FE4 /* AppDelegate.swift */; };
 		4F65F73A2B9E6CCE00323FE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F7392B9E6CCE00323FE4 /* SceneDelegate.swift */; };
-		4F65F73C2B9E6CCE00323FE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F73B2B9E6CCE00323FE4 /* ViewController.swift */; };
 		4F65F73F2B9E6CCE00323FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F65F73D2B9E6CCE00323FE4 /* Main.storyboard */; };
 		4F65F7412B9E6CCF00323FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F65F7402B9E6CCF00323FE4 /* Assets.xcassets */; };
 		4F65F7442B9E6CCF00323FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F65F7422B9E6CCF00323FE4 /* LaunchScreen.storyboard */; };
 		4F65F74F2B9E6CCF00323FE4 /* WeAreHeroesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F74E2B9E6CCF00323FE4 /* WeAreHeroesTests.swift */; };
 		4F65F7592B9E6CCF00323FE4 /* WeAreHeroesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F7582B9E6CCF00323FE4 /* WeAreHeroesUITests.swift */; };
 		4F65F75B2B9E6CCF00323FE4 /* WeAreHeroesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F75A2B9E6CCF00323FE4 /* WeAreHeroesUITestsLaunchTests.swift */; };
+		4F65F7682B9E6D1000323FE4 /* Poderes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F7672B9E6D1000323FE4 /* Poderes.swift */; };
+		4F65F76B2B9E6D2D00323FE4 /* SuperHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F65F76A2B9E6D2D00323FE4 /* SuperHeroes.json */; };
+		4F65F7742B9E6F3800323FE4 /* SuperHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F7732B9E6F3800323FE4 /* SuperHeroes.swift */; };
+		4F65F7772B9E707B00323FE4 /* JSONProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F7762B9E707B00323FE4 /* JSONProtocol.swift */; };
+		4F65F7792B9E70B400323FE4 /* DataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F7782B9E70B400323FE4 /* DataInteractor.swift */; };
+		4F65F77B2B9E717F00323FE4 /* SuperHeroesLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F77A2B9E717F00323FE4 /* SuperHeroesLogic.swift */; };
+		4F65F77D2B9E733100323FE4 /* SuperHeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F65F77C2B9E733100323FE4 /* SuperHeroesTableViewController.swift */; };
+		4FB671112B9F86410086A893 /* SuperHeroeDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB671102B9F86410086A893 /* SuperHeroeDetailsTableViewController.swift */; };
+		4FB671132B9F8AC30086A893 /* CustomHeroesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB671122B9F8AC30086A893 /* CustomHeroesTableViewCell.swift */; };
+		4FB671152B9F90C40086A893 /* CustomHeroeDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB671142B9F90C40086A893 /* CustomHeroeDetailsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +48,6 @@
 		4F65F7342B9E6CCE00323FE4 /* WeAreHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeAreHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F65F7372B9E6CCE00323FE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F65F7392B9E6CCE00323FE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F65F73B2B9E6CCE00323FE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F65F73E2B9E6CCE00323FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F65F7402B9E6CCF00323FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F65F7432B9E6CCF00323FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		4F65F7542B9E6CCF00323FE4 /* WeAreHeroesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeAreHeroesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F65F7582B9E6CCF00323FE4 /* WeAreHeroesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeAreHeroesUITests.swift; sourceTree = "<group>"; };
 		4F65F75A2B9E6CCF00323FE4 /* WeAreHeroesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeAreHeroesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F65F7672B9E6D1000323FE4 /* Poderes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poderes.swift; sourceTree = "<group>"; };
+		4F65F76A2B9E6D2D00323FE4 /* SuperHeroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SuperHeroes.json; sourceTree = "<group>"; };
+		4F65F7732B9E6F3800323FE4 /* SuperHeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroes.swift; sourceTree = "<group>"; };
+		4F65F7762B9E707B00323FE4 /* JSONProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONProtocol.swift; sourceTree = "<group>"; };
+		4F65F7782B9E70B400323FE4 /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
+		4F65F77A2B9E717F00323FE4 /* SuperHeroesLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroesLogic.swift; sourceTree = "<group>"; };
+		4F65F77C2B9E733100323FE4 /* SuperHeroesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroesTableViewController.swift; sourceTree = "<group>"; };
+		4FB671102B9F86410086A893 /* SuperHeroeDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroeDetailsTableViewController.swift; sourceTree = "<group>"; };
+		4FB671122B9F8AC30086A893 /* CustomHeroesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeroesTableViewCell.swift; sourceTree = "<group>"; };
+		4FB671142B9F90C40086A893 /* CustomHeroeDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeroeDetailsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,16 @@
 		4F65F7362B9E6CCE00323FE4 /* WeAreHeroes */ = {
 			isa = PBXGroup;
 			children = (
-				4F65F7372B9E6CCE00323FE4 /* AppDelegate.swift */,
-				4F65F7392B9E6CCE00323FE4 /* SceneDelegate.swift */,
-				4F65F73B2B9E6CCE00323FE4 /* ViewController.swift */,
-				4F65F73D2B9E6CCE00323FE4 /* Main.storyboard */,
+				4F65F7702B9E6E9600323FE4 /* System */,
+				4F65F7712B9E6EC600323FE4 /* Views */,
+				4F65F76F2B9E6E8500323FE4 /* ViewControllers */,
+				4F65F76E2B9E6E7E00323FE4 /* Logic */,
+				4F65F76D2B9E6E6F00323FE4 /* Interactor */,
+				4F65F76C2B9E6E5E00323FE4 /* Model */,
+				4F65F7752B9E706100323FE4 /* Protocols */,
+				4F65F7722B9E6EEC00323FE4 /* Commons */,
+				4F65F7692B9E6D1C00323FE4 /* Resources */,
 				4F65F7402B9E6CCF00323FE4 /* Assets.xcassets */,
-				4F65F7422B9E6CCF00323FE4 /* LaunchScreen.storyboard */,
-				4F65F7452B9E6CCF00323FE4 /* Info.plist */,
 			);
 			path = WeAreHeroes;
 			sourceTree = "<group>";
@@ -125,6 +146,92 @@
 				4F65F75A2B9E6CCF00323FE4 /* WeAreHeroesUITestsLaunchTests.swift */,
 			);
 			path = WeAreHeroesUITests;
+			sourceTree = "<group>";
+		};
+		4F65F7692B9E6D1C00323FE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F65F76A2B9E6D2D00323FE4 /* SuperHeroes.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4F65F76C2B9E6E5E00323FE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F65F7732B9E6F3800323FE4 /* SuperHeroes.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F65F76D2B9E6E6F00323FE4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				4F65F7782B9E70B400323FE4 /* DataInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		4F65F76E2B9E6E7E00323FE4 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				4F65F77A2B9E717F00323FE4 /* SuperHeroesLogic.swift */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		4F65F76F2B9E6E8500323FE4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FB671162B9F91C60086A893 /* Cell */,
+				4F65F77C2B9E733100323FE4 /* SuperHeroesTableViewController.swift */,
+				4FB671102B9F86410086A893 /* SuperHeroeDetailsTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4F65F7702B9E6E9600323FE4 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				4F65F7372B9E6CCE00323FE4 /* AppDelegate.swift */,
+				4F65F7392B9E6CCE00323FE4 /* SceneDelegate.swift */,
+				4F65F7422B9E6CCF00323FE4 /* LaunchScreen.storyboard */,
+				4F65F7452B9E6CCF00323FE4 /* Info.plist */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		4F65F7712B9E6EC600323FE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F65F73D2B9E6CCE00323FE4 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4F65F7722B9E6EEC00323FE4 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				4F65F7672B9E6D1000323FE4 /* Poderes.swift */,
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		4F65F7752B9E706100323FE4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4F65F7762B9E707B00323FE4 /* JSONProtocol.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		4FB671162B9F91C60086A893 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4FB671142B9F90C40086A893 /* CustomHeroeDetailsTableViewCell.swift */,
+				4FB671122B9F8AC30086A893 /* CustomHeroesTableViewCell.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F65F7442B9E6CCF00323FE4 /* LaunchScreen.storyboard in Resources */,
+				4F65F76B2B9E6D2D00323FE4 /* SuperHeroes.json in Resources */,
 				4F65F7412B9E6CCF00323FE4 /* Assets.xcassets in Resources */,
 				4F65F73F2B9E6CCE00323FE4 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +366,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F65F73C2B9E6CCE00323FE4 /* ViewController.swift in Sources */,
+				4FB671132B9F8AC30086A893 /* CustomHeroesTableViewCell.swift in Sources */,
 				4F65F7382B9E6CCE00323FE4 /* AppDelegate.swift in Sources */,
+				4F65F7682B9E6D1000323FE4 /* Poderes.swift in Sources */,
+				4FB671112B9F86410086A893 /* SuperHeroeDetailsTableViewController.swift in Sources */,
+				4F65F7772B9E707B00323FE4 /* JSONProtocol.swift in Sources */,
+				4F65F77D2B9E733100323FE4 /* SuperHeroesTableViewController.swift in Sources */,
+				4F65F77B2B9E717F00323FE4 /* SuperHeroesLogic.swift in Sources */,
+				4F65F7742B9E6F3800323FE4 /* SuperHeroes.swift in Sources */,
+				4FB671152B9F90C40086A893 /* CustomHeroeDetailsTableViewCell.swift in Sources */,
 				4F65F73A2B9E6CCE00323FE4 /* SceneDelegate.swift in Sources */,
+				4F65F7792B9E70B400323FE4 /* DataInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
