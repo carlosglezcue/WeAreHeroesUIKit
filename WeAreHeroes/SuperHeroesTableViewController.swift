@@ -13,7 +13,7 @@ class SuperHeroesTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-         self.clearsSelectionOnViewWillAppear = false
+         self.clearsSelectionOnViewWillAppear = true
     }
 
     // MARK: - Table view data source
@@ -29,14 +29,6 @@ class SuperHeroesTableViewController: UITableViewController {
         cell.heroeName.text = heroes.nombreReal
         cell.heroeDescription.text = heroes.apodo
         cell.heroeImage.image = UIImage(named: heroes.imagen)
-        
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "heroesCell", for: indexPath)
-//        var content = UIListContentConfiguration.subtitleCell()
-//
-//        content.text = heroes.nombreReal
-//        content.secondaryText = heroes.apodo
-//        content.image = UIImage(named: heroes.imagen)
-//        cell.contentConfiguration = content
         
         return cell
     }
